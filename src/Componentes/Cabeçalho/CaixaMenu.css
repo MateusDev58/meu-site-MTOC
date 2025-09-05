@@ -1,0 +1,41 @@
+.caixa-principal {
+  position: relative;
+}
+
+.caixa-menu {
+  width: 100%;
+  max-width: 34.8rem;
+  height: 92vh;
+  background-color: #000000;
+  padding: 3rem 7rem 4rem;
+  position: absolute;
+  right: 0;
+  transform: translateY(0.01%);
+  overflow-x: hidden;
+  overflow-y: auto;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 999;
+}
+
+.lista-menu-2 {
+  padding: 1rem;
+  display: none;
+}
+
+.lista-menu {
+  padding: 1rem;
+}
+
+.lista-menu-a {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  list-style: none;
+  color: #d6d1bc;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+
+.lista-menu-a:hover {
+  color: #c31411;
+}

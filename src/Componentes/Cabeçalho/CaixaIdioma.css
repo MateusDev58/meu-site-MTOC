@@ -1,0 +1,56 @@
+.caixa-idioma {
+  max-width: 100%;
+  width: 100%;
+  padding: 1.2rem 1.6rem;
+  background-color: #d6d1bc;
+  cursor: pointer;
+  border-radius: 1rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.botao-idioma {
+  background-color: #d6d1bc;
+  border: none;
+  padding: 0.4rem 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.seta {
+  color: #15100c;
+}
+
+.caixa-idioma ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.lista-idioma {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.idioma {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 1.2rem;
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: #101119;
+}
+
+.idioma:hover {
+  background-color: #c31513;
+  color: white;
+}

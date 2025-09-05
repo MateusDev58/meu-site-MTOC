@@ -1,0 +1,67 @@
+.caixa-slide {
+  width: 95%;
+  margin-inline: auto;
+  padding: 7rem 2rem;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa-conteudo-slide {
+  margin: 0 1.5rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  flex: 0 0 auto;
+  max-width: 50rem;
+  height: auto;
+}
+
+.slide-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+  font-weight: 100;
+  color: #d6d1bc;
+  max-width: 25ch;
+  margin: 0 auto 1rem;
+  white-space: normal;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.slide-p-2 {
+  margin: 2rem 0rem;
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.pagina-slide {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 10rem;
+  padding: 0;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  animation: mafiaMarquee 20s linear infinite;
+  animation-delay: -30s;
+}
+
+@keyframes mafiaMarquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}

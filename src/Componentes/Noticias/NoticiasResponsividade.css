@@ -1,0 +1,113 @@
+@media screen and (max-width: 991px) {
+  .caixa-slider-noticias-desktop {
+    display: none !important;
+  }
+
+  .caixa-slider-noticias-tablet {
+    display: flex;
+  }
+
+  .faixa-slider-tablet > .caixa-slider-noticias-tablet {
+    flex: 0 0 100%;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    transition: transform 0.4s ease;
+  }
+
+  .caixa-navegacao-noticias > label.navegacao-noticias {
+    display: inline-flex;
+  }
+
+  .caixa-navegacao-noticias label:nth-child(n + 6) {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .caixa-noticias {
+    background-image: url("fundo-noticias-celular.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    padding: 5.6rem 1.6rem;
+  }
+
+  .caixa-textos-noticias {
+    padding: 1.6rem;
+  }
+
+  .caixa-noticias-h2 {
+    margin: 0rem 0rem 3.484rem;
+  }
+
+  .noticias-h2 {
+    font-size: 5.2rem;
+  }
+
+  .titulo-h3 {
+    font-size: 2.24rem;
+    margin: 0rem 0rem 0.8rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .textos-noticias-p {
+    font-size: 1.6rem;
+    max-width: 70.3rem;
+    height: auto;
+    margin: 0rem 0rem 1.6rem;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+
+  .faixa-slider,
+  .faixa-slider-tablet {
+    display: none !important;
+  }
+
+  .faixa-slider-celular {
+    display: flex;
+    overflow: visible !important;
+    transform: translateX(0);
+    transition: transform 0.4s ease;
+    will-change: transform;
+  }
+
+  .faixa-slider-celular > .caixa-slider-noticias-celular {
+    flex: 0 0 100%;
+    min-width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    transition: transform 0.4s ease;
+  }
+
+  .caixa-navegacao-noticias > label.navegacao-noticias {
+    display: inline-flex !important;
+  }
+
+  .caixa-conteudo-noticias {
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+  }
+
+  .faixa-slider-celular .caixa-conteudo-slider-noticias,
+  .faixa-slider-celular .caixa-conteudo-slider-noticias-2 {
+    height: auto !important;
+    max-height: none !important;
+  }
+
+  .caixa-textos-noticias {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+  .caixa-sabiba-mais-noticias {
+    margin-top: auto;
+  }
+}

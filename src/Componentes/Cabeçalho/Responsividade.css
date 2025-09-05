@@ -1,0 +1,23 @@
+@media screen and (max-width: 900px) {
+  .links-jogos {
+    display: none;
+  }
+
+  .lista-menu-2 {
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .reserve-agora {
+    padding: 0.4rem 0.8rem;
+  }
+
+  .caixa-menu {
+    max-width: 100% !important;
+  }
+
+  .cabeçalho {
+    height: 4rem;
+  }
+}

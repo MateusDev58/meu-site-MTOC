@@ -1,0 +1,23 @@
+.caixa-botao {
+  position: relative;
+}
+
+.botao-hamburguer {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 0;
+}
+
+.icone-hamburguer {
+  width: 2.7rem;
+  height: 2.7rem;
+  color: #d6d1bc;
+}
+
+.caixa-hamburguer {
+  max-width: 33.8rem;
+  height: 50rem;
+  background-color: #000000;
+  margin: 5rem;
+}

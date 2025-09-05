@@ -1,0 +1,101 @@
+.caixa-beneficios {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+  padding: 7rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caixa-beneficios-conteudo {
+  margin: 0rem 2rem 0rem 0rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.beneficios-h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  color: #d6d1bc;
+  margin: 0rem 0rem 3rem;
+  font-weight: 300;
+}
+
+.lista-beneficios-ul {
+  margin: 2rem 0rem;
+  padding: 0rem 0rem 0rem 2rem;
+  max-width: 62.5rem;
+  height: auto;
+  width: 100%;
+}
+
+.lista-beneficios-li {
+  color: #d6d1bc;
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  list-style-position: inside;
+  max-width: 60.5rem;
+  height: auto;
+}
+
+.beneficios-p {
+  font-family: "Open Sans", sans-serif;
+  color: #d6d1bc;
+  max-width: 62.5rem;
+  height: auto;
+  font-size: 2rem;
+  margin: 2rem 0rem;
+}
+
+.wrapper-img {
+  width: min(100%, 64.5rem);
+  margin-inline: auto;
+}
+
+.trilogia-mafia-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.caixa-beneficios-botao {
+  width: 100%;
+  max-width: 62.5rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.saiba-mais,
+.sabiba-mais-noticias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 20.956rem;
+  height: 6.6rem;
+  background-color: #100b08;
+  border: solid 0.1rem #d6d1bc;
+  font-size: 2.2rem;
+  font-family: "Open Sans", sans-serif;
+  color: #d6d1bc;
+  padding: 2rem 3rem;
+  font-weight: 700;
+  transition: all 0.2s ease-out;
+  white-space: nowrap;
+}
+
+.saiba-mais:hover {
+  border: solid 0.1rem #c31513;
+  color: #c31513;
+}
+
+.sabiba-mais-noticias {
+  padding: 1rem 3rem;
+  margin: 0rem 9.12188rem;
+  max-width: 18.756rem;
+  height: 4.6rem;
+}

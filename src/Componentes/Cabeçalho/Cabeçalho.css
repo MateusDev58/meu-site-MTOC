@@ -1,0 +1,118 @@
+.cabeçalho {
+  max-width: 100%;
+  width: 100%;
+  background-color: #000000;
+  height: 5rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  position: relative;
+}
+
+.logo-mafia-img {
+  width: 100%;
+  max-width: 9.556rem;
+  height: auto;
+}
+
+.caixa-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.links-jogos {
+  font-size: 2rem;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.links-jogos:hover {
+  color: #c71e14;
+}
+
+.numero-vermelho {
+  color: #c71e14;
+}
+
+.reserve-agora {
+  background-image: url("fundo-do-botão-reserva-agora.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.5s ease;
+  max-width: 17.998rem;
+  height: auto;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+/* Reutilizável */
+
+.reserve-agora.botao--reserve {
+  font-size: 2.2rem;
+  max-width: 26.439rem;
+  transform: translateY(20%);
+  padding: 2rem 3rem;
+}
+
+.reserve-agora.botao--deluxe {
+  max-width: 20.416rem;
+  padding: 2rem 3rem;
+  word-spacing: normal;
+  word-spacing: 0.25em;
+  letter-spacing: 0.02em;
+  font-stretch: 100%;
+  transform: none;
+}
+
+.reserve-agora:hover {
+  color: #c31513;
+  background-image: url("fundo-hover.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reserve-agora.cadastre-se {
+  margin: 1.5rem 0rem;
+  padding: 2rem 3rem;
+  max-width: 23.53rem;
+  height: auto;
+  word-spacing: normal;
+  word-spacing: 0.25em;
+}
+
+.reserve-agora.mais-noticias {
+  max-width: 25.377rem;
+  width: 100;
+  height: 6.6rem;
+  padding: 2rem 3rem;
+  margin: 1.5rem;
+  font-size: 2.2rem;
+}

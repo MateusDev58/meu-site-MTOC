@@ -1,0 +1,266 @@
+.caixa-media {
+  padding: 7rem 2rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.radio-media {
+  opacity: 0;
+}
+
+.caixa-navegacao-media {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.75rem;
+}
+
+.caixa-navegacao-media .navegacao {
+  background: white;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.caixa-media:has(#numero1:checked) .caixa-navegacao-media label[for="numero1"],
+.caixa-media:has(#numero2:checked) .caixa-navegacao-media label[for="numero2"],
+.caixa-media:has(#numero3:checked) .caixa-navegacao-media label[for="numero3"],
+.caixa-media:has(#numero4:checked) .caixa-navegacao-media label[for="numero4"],
+.caixa-media:has(#numero5:checked) .caixa-navegacao-media label[for="numero5"],
+.caixa-media:has(#numero6:checked) .caixa-navegacao-media label[for="numero6"],
+.caixa-media:has(#numero7:checked) .caixa-navegacao-media label[for="numero7"],
+.caixa-media:has(#numero8:checked) .caixa-navegacao-media label[for="numero8"],
+.caixa-media:has(#numero9:checked) .caixa-navegacao-media label[for="numero9"] {
+  background: #efd94a;
+}
+
+.caixa-titulo-media {
+  margin: 0rem 0rem 4.355rem;
+}
+
+.media-h2 {
+  font-size: 6.5rem;
+  font-family: "Playfair Display", serif;
+  color: #d6d1bc;
+  margin: 0rem 0rem 1.355rem;
+  font-weight: 500;
+}
+
+.vermelho-media {
+  width: 100%;
+  max-width: 55rem;
+  height: 0.6rem;
+}
+
+.caixa-slider-media {
+  overflow: hidden;
+  width: 100%;
+}
+
+.caixa-conteudo-slider {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  flex: 0 0 100%;
+  min-width: 0;
+  gap: 3rem;
+  overflow-y: hidden;
+}
+
+.img-carousel-media {
+  flex: 1 1 0;
+  min-width: 0;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  display: block;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.caixa-tablet-trilho,
+.caixa-celulares-trilho {
+  display: none !important;
+}
+
+.caixa-desktop-trilho,
+.caixa-tablet-trilho,
+.caixa-celulares-trilho {
+  display: flex;
+  flex-wrap: nowrap;
+  transition: transform 420ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  min-width: 0;
+}
+
+/* trilho para  desktop */
+.caixa-navegacao-media label[for="numero4"],
+.caixa-navegacao-media label[for="numero5"],
+.caixa-navegacao-media label[for="numero6"],
+.caixa-navegacao-media label[for="numero7"],
+.caixa-navegacao-media label[for="numero8"],
+.caixa-navegacao-media label[for="numero9"] {
+  display: none;
+}
+
+#numero1:checked ~ div .caixa-slider-media .caixa-desktop-trilho {
+  transform: translateX(0%);
+}
+#numero2:checked ~ div .caixa-slider-media .caixa-desktop-trilho {
+  transform: translateX(-100%);
+}
+#numero3:checked ~ div .caixa-slider-media .caixa-desktop-trilho {
+  transform: translateX(-200%);
+}
+
+/*  trilho para  tablet */
+.caixa-tablet-trilho > .faixa {
+  display: flex !important;
+
+  flex-wrap: nowrap;
+}
+
+.caixa-tablet-trilho > .faixa > .slide {
+  flex: 0 0 100%;
+  max-width: 46.048rem;
+}
+
+#numero1:checked ~ div .caixa-slider-media .caixa-tablet-trilho > div {
+  transform: translateX(0%);
+}
+#numero2:checked ~ div .caixa-slider-media .caixa-tablet-trilho > div {
+  transform: translateX(-100%);
+}
+#numero3:checked ~ div .caixa-slider-media .caixa-tablet-trilho > div {
+  transform: translateX(-200%);
+}
+#numero4:checked ~ div .caixa-slider-media .caixa-tablet-trilho > div {
+  transform: translateX(-300%);
+}
+#numero5:checked ~ div .caixa-slider-media .caixa-tablet-trilho > div {
+  transform: translateX(-400%);
+}
+
+/*  trilho para  celulares */
+.caixa-celulares-trilho {
+  display: flex;
+}
+
+#numero1:checked ~ div .caixa-slider-media .caixa-celulares-trilho > div {
+  transform: translateX(0%);
+}
+#numero2:checked ~ div .caixa-slider-media .caixa-celulares-trilho > div {
+  transform: translateX(-100%);
+}
+#numero3:checked ~ div .caixa-slider-media .caixa-celulares-trilho > div {
+  transform: translateX(-200%);
+}
+#numero4:checked ~ div .caixa-slider-media .caixa-celulares-trilho > div {
+  transform: translateX(-300%);
+}
+#numero5:checked ~ div .caixa-slider-media .caixa-celulares-trilho > div {
+  transform: translateX(-400%);
+}
+#numero6:checked ~ div .caixa-slider-media .caixa-celulares-trilho > div {
+  transform: translateX(-500%);
+}
+#numero7:checked ~ div .caixa-slider-media .caixa-celulares-trilho > div {
+  transform: translateX(-600%);
+}
+#numero8:checked ~ div .caixa-slider-media .caixa-celulares-trilho > div {
+  transform: translateX(-700%);
+}
+#numero9:checked ~ div .caixa-slider-media .caixa-celulares-trilho > div {
+  transform: translateX(-800%);
+}
+
+.caixa-modal {
+  position: fixed;
+  inset: 0;
+  background-color: #000000e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.caixa-imagem-modal {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  overflow: hidden;
+}
+
+.caixa-imagem-modal > img {
+  grid-area: 1 / 1;
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.caixa-imagem-modal > img.ativo {
+  opacity: 1;
+}
+
+.caixa-imagem-modal > img:first-of-type {
+  opacity: 1;
+}
+
+.botao-fechar {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  background: transparent;
+  border: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #efd94a;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.botao-fechar:hover {
+  transform: scale(1.2);
+}
+
+.seta-seta-esq,
+.seta-seta-dir {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 4rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #efd94a;
+  cursor: pointer;
+}
+
+.seta-seta-esq {
+  left: 1rem;
+}
+.seta-seta-dir {
+  right: 1rem;
+}

@@ -1,0 +1,41 @@
+@media screen and (max-width: 1762px) {
+  .caixa-conteudo {
+    display: block;
+  }
+
+  .caixa-logo-reserva {
+    bottom: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .imagem-de-fundo-mafia {
+    aspect-ratio: auto;
+    height: clamp(60rem, 50vw, 100vh);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .imagem-de-fundo-mafia {
+    display: none;
+  }
+
+  .imagem-de-fundo-mafia {
+    background-image: url("/imagem-fundo-moblile.avif");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    min-height: 540px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo-mafia-2 {
+    width: 100%;
+    max-width: 60rem;
+  }
+}

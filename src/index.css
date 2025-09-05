@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #100b08;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  overflow-x: clip;
+}

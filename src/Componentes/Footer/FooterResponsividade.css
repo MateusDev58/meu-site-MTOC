@@ -1,0 +1,67 @@
+@media screen and (max-width: 767px) {
+  .caixa-footer {
+    padding: 1.92rem;
+  }
+
+  .caixa-logos {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    padding-bottom: 3rem;
+  }
+
+  .caixa-conteudo-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch !important;
+    justify-content: initial;
+    width: 100% !important;
+    min-width: 0 !important;
+    gap: 1rem;
+  }
+
+  .caixa-links-footer {
+    align-self: stretch !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .titulo-footer {
+    display: flex !important;
+    width: 100% !important;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    text-align: left;
+    transform: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .seta {
+    display: flex;
+    transition: transform 0.25s ease;
+    transform-origin: 50% 50%;
+  }
+
+  .caixa-links-footer.ativo .seta {
+    transform: rotate(180deg);
+  }
+
+  .caixa-lista-footer-ul {
+    width: 100%;
+  }
+
+  .caixa-verifique {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .verifique {
+    max-width: 23.398rem;
+  }
+}

@@ -1,0 +1,217 @@
+@media screen and (min-width: 1762px) {
+  .caixa-classico-mafia > .caixa-conteudo-mafia,
+  .caixa-crime-organizado > .caixa-conteudo-crime-organizado,
+  .caixa-viaja > .caixa-conteudo-viaja,
+  .caixa-redes-sociais-f > .caixa-conteudo-redes-sociais,
+  .caixa-sobevivencia > .caixa-conteudo-sobevivencia {
+    margin: 0 16.1rem;
+  }
+
+  .caixa-conteudo-redes-sociais {
+    padding: 8rem 2rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1761.98px) {
+  .caixa-classico-mafia > .caixa-conteudo-mafia,
+  .caixa-crime-organizado > .caixa-conteudo-crime-organizado,
+  .caixa-viaja > .caixa-conteudo-viaja,
+  .caixa-redes-sociais-f > .caixa-conteudo-redes-sociais,
+  .caixa-sobevivencia > .caixa-conteudo-sobevivencia {
+    margin: 0 calc(((100vw - 1440px) / 322) * 16.1rem);
+  }
+  .caixa-conteudo-redes-sociais {
+    padding: 8rem 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 1439.98px) {
+  .caixa-classico-mafia > .caixa-conteudo-mafia,
+  .caixa-crime-organizado > .caixa-conteudo-crime-organizado,
+  .caixa-viaja > .caixa-conteudo-viaja,
+  .caixa-redes-sociais-f > .caixa-conteudo-redes-sociais,
+  .caixa-sobevivencia > .caixa-conteudo-sobevivencia {
+    margin: 0;
+  }
+
+  .caixa-conteudo-redes-sociais {
+    padding: 8rem 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .caixa-crime-organizado,
+  .caixa-classico-mafia,
+  .caixa-sobevivencia,
+  .caixa-viaja {
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    aspect-ratio: 710 / 818;
+    width: 100%;
+  }
+
+  .caixa-redes-sociais-f {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    aspect-ratio: 700 / 600;
+    width: 100%;
+  }
+
+  .img-vermelho-2 {
+    max-width: 50rem;
+    transform: translateY(90%);
+    margin: 0;
+  }
+
+  .caixa-crime-organizado {
+    background-image: url("CrimeOrganizado-Mobile_img.avif");
+  }
+
+  .caixa-classico-mafia {
+    background-image: url("classicomafia-img-mobile.avif");
+  }
+
+  .caixa-sobevivencia {
+    background-image: url("sobrevivencia_Mobile.avif");
+  }
+
+  .caixa-viaja {
+    background-image: url("viaja-4-Mobile.avif");
+  }
+
+  .caixa-redes-sociais-f {
+    background-image: url("imagem-Mobile.avif");
+  }
+
+  .caixa-conteudo-crime-organizado,
+  .caixa-conteudo-mafia,
+  .caixa-conteudo-sobevivencia,
+  .caixa-conteudo-viaja,
+  .caixa-conteudo-redes-sociais {
+    width: 100%;
+    max-width: 59.6rem;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5.6rem 1.6rem;
+  }
+
+  .caixa-redes-sociais-f {
+    padding: 5.6rem 1.6rem;
+  }
+
+  .crime-organizado-h2,
+  .classico-mafia-h2,
+  .sobrevivencia-h2,
+  .viaja-h2,
+  .redes-sociais-h2 {
+    font-size: 3.2rem;
+    margin: 0rem 0rem 2rem;
+    text-align: center;
+  }
+
+  .paisagens-sicilia-p,
+  .nti-heroi,
+  .combates-mortais-p,
+  .Desbrave-p {
+    font-size: 1.7rem;
+    line-height: 1.4;
+    margin: 1.6rem 0rem;
+  }
+
+  .jure-lealdade-p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .caixa-crime-organizado,
+  .caixa-classico-mafia,
+  .caixa-sobevivencia,
+  .caixa-viaja {
+    aspect-ratio: 680 / 812;
+  }
+
+  .caixa-redes-sociais-f {
+    aspect-ratio: 700 / 700;
+  }
+
+  .caixaredes {
+    transform: translateX(0);
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .caixa-crime-organizado,
+  .caixa-classico-mafia,
+  .caixa-sobevivencia,
+  .caixa-redes-sociais-f {
+    aspect-ratio: 570 / 812;
+  }
+
+  .caixa-viaja {
+    aspect-ratio: 620 / 812;
+  }
+}
+
+@media (max-width: 500px) {
+  .caixa-crime-organizado,
+  .caixa-classico-mafia,
+  .caixa-sobevivencia,
+  .caixa-redes-sociais-f {
+    aspect-ratio: 490 / 812;
+  }
+
+  .caixa-viaja {
+    aspect-ratio: 570 / 812;
+  }
+}
+
+@media (max-width: 472px) {
+  .caixa-crime-organizado,
+  .caixa-classico-mafia,
+  .caixa-sobevivencia,
+  .caixa-redes-sociais-f {
+    aspect-ratio: 430 / 812;
+  }
+
+  .caixa-viaja {
+    aspect-ratio: 520 / 812;
+  }
+}
+
+@media (max-width: 428px) {
+  .caixa-crime-organizado,
+  .caixa-classico-mafia,
+  .caixa-sobevivencia,
+  .caixa-redes-sociais-f {
+    aspect-ratio: 390 / 812;
+  }
+
+  .caixa-viaja {
+    aspect-ratio: 470 / 812;
+  }
+}
+
+@media (max-width: 400px) {
+  .caixa-crime-organizado,
+  .caixa-classico-mafia,
+  .caixa-sobevivencia,
+  .caixa-redes-sociais-f {
+    aspect-ratio: 380 / 812;
+  }
+
+  .caixa-viaja {
+    aspect-ratio: 450 / 812;
+  }
+
+  .caixaredes {
+    gap: 1rem;
+  }
+}

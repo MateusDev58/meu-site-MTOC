@@ -1,0 +1,57 @@
+@media screen and (max-width: 767px) {
+  .caixa-deluxe {
+    padding: 5.6rem 6.39062rem;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .faixa-slides {
+    display: flex;
+    gap: 5rem;
+    transform: translateX(-5%);
+    align-items: stretch;
+    gap: 2rem;
+  }
+
+  .conteudo-deluxe {
+    flex: 0 0 clamp(20rem, 90vw, 63.919rem);
+    max-width: 100%;
+    align-self: stretch !important;
+    height: auto;
+    min-width: 0;
+  }
+
+  .caixa-imagem-deluxe {
+    padding: 3.2rem 3.2rem 0rem;
+  }
+
+  .deluxe-h2 {
+    font-size: 3.2rem;
+    padding: 0rem 0.8rem;
+  }
+
+  .reserve-agora.botao--deluxe {
+    font-size: 1.76rem;
+    max-width: 16.769rem;
+    height: auto;
+  }
+
+  .caixa-texto-deluxe {
+    margin: 1.6rem 0rem 0rem;
+    padding: 0rem 1.6rem 1.6rem;
+  }
+
+  .texto-deluxe {
+    font-size: 1.67rem;
+  }
+
+  #slide1:checked ~ .faixa-slides {
+    transform: translateX(
+      calc(51% + (50 - 30) * ((100vw - 400px) / (767 - 400)))
+    );
+  }
+
+  .botoes {
+    display: block;
+  }
+}

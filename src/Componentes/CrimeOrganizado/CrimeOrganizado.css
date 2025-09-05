@@ -1,0 +1,116 @@
+.caixa-crime-organizado,
+.caixa-classico-mafia,
+.caixa-sobevivencia,
+.caixa-viaja,
+.caixa-redes-sociais-f {
+  padding: 7rem 2rem;
+  width: 100%;
+  max-width: 100%;
+}
+
+.caixa-redes-sociais-f {
+  position: relative;
+  overflow: hidden;
+}
+
+.caixa-conteudo-redes-sociais {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.caixa-crime-organizado {
+  background: url("/CrimeOrganizado-1-img.avif") center / cover no-repeat;
+}
+
+.caixa-classico-mafia {
+  background: url("/classicomafia-img.avif") center / cover no-repeat;
+}
+
+.caixa-sobevivencia {
+  background: url("/sobrevivencia-img.avif") center / cover no-repeat;
+}
+
+.caixa-viaja {
+  background: url("/Viaja-img.avif") center / cover no-repeat;
+}
+
+.caixa-redes-sociais-f {
+  background: url("/imagem-redes.avif") center / cover no-repeat;
+}
+
+.caixa-conteudo-crime-organizado,
+.caixa-conteudo-sobevivencia,
+.caixa-conteudo-redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+
+.caixa-conteudo-redes-sociais {
+  margin: 0rem 1.05rem;
+}
+
+.crime-organizado-h2,
+.classico-mafia-h2,
+.sobrevivencia-h2,
+.viaja-h2,
+.redes-sociais-h2 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  color: #d6d1bc;
+  font-family: "Playfair Display", serif;
+  max-width: 59.6rem;
+  width: 100%;
+  font-weight: 500;
+  transform: translateY(10%);
+}
+
+.crime-organizado-h2 {
+  text-align: center;
+}
+
+.redes-sociais-h2 {
+  color: #100b08;
+  text-align: center;
+}
+
+.paisagens-sicilia-p,
+.anti-heroi,
+.combates-mortais-p,
+.Desbrave-p,
+.jure-lealdade-p {
+  font-size: 2rem;
+  color: #d6d1bc;
+  max-width: 59.6rem;
+  margin: 2rem 0;
+}
+
+.jure-lealdade-p {
+  color: #100b08;
+}
+
+.caixaredes {
+  display: flex;
+  gap: 3rem;
+  margin: 3rem 0rem;
+  transform: translateX(-35%);
+}
+
+.img-vermelho {
+  width: 100%;
+  max-width: 55rem;
+  height: auto;
+  margin: 0 2.3rem;
+}
+
+.img-vermelho-2 {
+  width: 100%;
+  max-width: 40rem;
+  transform: translateX(-20%);
+}

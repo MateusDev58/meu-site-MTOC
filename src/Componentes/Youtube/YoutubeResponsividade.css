@@ -1,0 +1,27 @@
+@media screen and (max-width: 991px) {
+  .caixa-video-1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .caixa-iframe {
+    width: auto;
+    max-width: none;
+    flex: 0 1 calc((100% - 2rem) / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .caixa-video-1 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2rem;
+  }
+
+  .caixa-iframe {
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+  }
+}

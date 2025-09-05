@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px) {
+  .caixalancamento {
+    background-image: url("imagem-fundo-gameplay-celular.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .caixa-lancamento-p {
+    max-width: 73.5rem;
+    height: auto;
+    gap: 2rem;
+    padding-top: 8rem;
+  }
+
+  .titulo-h1 {
+    font-size: 5.2rem;
+  }
+
+  .lancamento-p {
+    font-size: 1.67rem;
+  }
+
+  .titulo-h2 {
+    font-size: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .caixa-lancamento-p {
+    padding-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .caixa-lancamento-p {
+    padding-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .caixalancamentoconteudo {
+    padding: 10rem 2rem;
+  }
+
+  .caixa-lancamento-p {
+    padding-top: 5rem;
+  }
+}
