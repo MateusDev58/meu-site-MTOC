@@ -16,3 +16,102 @@ body {
   overflow-x: hidden;
   overflow-x: clip;
 }
+
+.caixa-crime-organizado,
+.caixa-classico-mafia,
+.caixa-sobevivencia,
+.caixa-viaja,
+.caixa-redes-sociais-f {
+  background-size: cover;
+  background-position: center;
+}
+
+.caixa-crime-organizado {
+  background-image: url("CrimeOrganizado-Mobile_img.jpg");
+}
+.caixa-classico-mafia {
+  background-image: url("classicomafia-img-mobile.jpg");
+}
+.caixa-sobevivencia {
+  background-image: url("sobrevivencia_Mobile.jpg");
+}
+.caixa-viaja {
+  background-image: url("viaja-4-Mobile.jpg");
+}
+.caixa-redes-sociais-f {
+  background-image: url("imagem-Mobile.jpg");
+}
+
+@supports (background-image: -webkit-image-set(url("x.avif") 1x)) {
+  .caixa-crime-organizado {
+    background-image: -webkit-image-set(
+      url("CrimeOrganizado-Mobile_img.avif") type("image/avif") 1x,
+      url("CrimeOrganizado-Mobile_img.jpg") type("image/jpeg") 1x
+    );
+  }
+
+  .caixa-classico-mafia {
+    background-image: -webkit-image-set(
+      url("classicomafia-img-mobile.avif") type("image/avif") 1x,
+      url("classicomafia-img-mobile.jpg") type("image/jpeg") 1x
+    );
+  }
+
+  .caixa-sobevivencia {
+    background-image: -webkit-image-set(
+      url("sobrevivencia_Mobile.avif") type("image/avif") 1x,
+      url("sobrevivencia_Mobile.jpg") type("image/jpeg") 1x
+    );
+  }
+
+  .caixa-viaja {
+    background-image: -webkit-image-set(
+      url("viaja-4-Mobile.avif") type("image/avif") 1x,
+      url("viaja-4-Mobile.jpg") type("image/jpeg") 1x
+    );
+  }
+
+  .caixa-redes-sociais-f {
+    background-image: -webkit-image-set(
+      url("imagem-Mobile.avif") type("image/avif") 1x,
+      url("imagem-Mobile.jpg") type("image/jpeg") 1x
+    );
+  }
+}
+
+@supports (background-image: image-set(url("x.avif") type("image/avif") 1x)) {
+  .caixa-crime-organizado {
+    background-image: image-set(
+      url("CrimeOrganizado-Mobile_img.avif") type("image/avif") 1x,
+      url("CrimeOrganizado-Mobile_img.jpg") type("image/jpeg") 1x
+    );
+  }
+
+  .caixa-classico-mafia {
+    background-image: image-set(
+      url("classicomafia-img-mobile.avif") type("image/avif") 1x,
+      url("classicomafia-img-mobile.jpg") type("image/jpeg") 1x
+    );
+  }
+
+  .caixa-sobevivencia {
+    background-image: image-set(
+      url("sobrevivencia_Mobile.avif") type("image/avif") 1x,
+      url("sobrevivencia_Mobile.jpg") type("image/jpeg") 1x
+    );
+  }
+
+  .caixa-viaja {
+    background-image: image-set(
+      url("viaja-4-Mobile.avif") type("image/avif") 1x,
+      url("viaja-4-Mobile.jpg") type("image/jpeg") 1x
+    );
+  }
+
+  .caixa-redes-sociais-f {
+    background-image: image-set(
+      url("imagem-Mobile.avif") type("image/avif") 1x,
+      url("imagem-Mobile.jpg") type("image/jpeg") 1x
+    );
+  }
+}
