@@ -7,10 +7,9 @@
 
   .faixa-slides {
     display: flex;
-    gap: 5rem;
-    transform: translateX(-5%);
     align-items: stretch;
     gap: 2rem;
+    transform: translateX(-5%);
   }
 
   .conteudo-deluxe {
@@ -51,7 +50,22 @@
     );
   }
 
-  .botoes {
-    display: block;
+  .botoes-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 0.75rem;
+  }
+
+  #slide1:checked ~ .botoes-slide label[for="slide1"],
+  #slide2:checked ~ .botoes-slide label[for="slide2"] {
+    background: #efd94a;
+    transform: scale(1.08);
+  }
+
+  .botoes-slide .botoes {
+    display: inline-block;
   }
 }

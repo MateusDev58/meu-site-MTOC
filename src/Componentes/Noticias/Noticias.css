@@ -1,5 +1,5 @@
 .caixa-noticias {
-  background: url("fundo-noticias.jpg") center/cover no-repeat fixed;
+  background: url("/fundo-noticias.jpg") center/cover no-repeat fixed;
   height: auto;
   width: 100%;
   max-width: 100%;

@@ -22,7 +22,6 @@ const Footer = () => {
     };
 
     const enableMobile = () => {
-      // inicia tudo fechado no mobile
       root
         .querySelectorAll(".caixa-links-footer")
         .forEach((b) => b.classList.remove("ativo"));

@@ -1,5 +1,5 @@
 .caixa-deluxe {
-  background: url("fundo-deluxe-2.avif") center/cover no-repeat;
+  background: url("/fundo-deluxe-2.avif") center/cover no-repeat;
   width: 100%;
   max-width: 100%;
   padding: 7rem;
@@ -91,11 +91,12 @@
   color: #d6d1bc;
 }
 
+/* 🔹 Escondidas por padrão (desktop) */
 .botoes-slide {
   position: absolute;
-  display: flex;
   bottom: 0;
   gap: 1rem;
+  display: none;
 }
 
 .controle {
@@ -114,12 +115,6 @@
   cursor: pointer;
   margin-bottom: 2rem;
   transition: background-color 0.25s ease, transform 0.15s ease;
-}
-
-#slide1:checked ~ .botoes-slide label[for="slide1"],
-#slide2:checked ~ .botoes-slide label[for="slide2"] {
-  background: #efd94a;
-  transform: scale(1.08);
 }
 
 #slide1:checked ~ .faixa-slides {

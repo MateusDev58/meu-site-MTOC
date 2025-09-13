@@ -52,7 +52,7 @@ nav {
 }
 
 .reserve-agora {
-  background-image: url("fundo-do-botão-reserva-agora.svg");
+  background-image: url("/fundo-do-botão-reserva-agora.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ nav {
 
 .reserve-agora:hover {
   color: #c31513;
-  background-image: url("fundo-hover.svg");
+  background-image: url("/fundo-hover.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

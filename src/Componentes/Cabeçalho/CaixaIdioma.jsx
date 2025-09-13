@@ -10,13 +10,16 @@ const CaixaIdioma = () => {
 
   return (
     <div className="caixa-idioma">
-      <button className="botao-idioma" onClick={toggleDropdown}>
+      <button
+        className={`botao-idioma ${aberto ? "aberto" : ""}`}
+        onClick={toggleDropdown}
+        type="button"
+      >
         PORTUGUÊS (BR)
         <span>
           <svg
-            className="seta"
-            width="15"
-            height="10"
+            className="seta-2"
+            fill="currentColor"
             viewBox="0 0 15 10"
             xmlns="http://www.w3.org/2000/svg"
           >
@@ -37,7 +40,7 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/the-old-country/"
             >
-              ENGLISH
+              ENGLISH (EN)
             </a>
           </li>
 
@@ -47,7 +50,7 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/en-GB/the-old-country/"
             >
-              FRANÇAIS
+              ENGLISH (GB)
             </a>
           </li>
 
@@ -57,7 +60,17 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/fr-FR/the-old-country/"
             >
-              ITALIANO
+              FRANÇAIS (FR)
+            </a>
+          </li>
+
+          <li className="lista-idioma">
+            <a
+              className="idioma"
+              target="_blank"
+              href="https://mafia.2k.com/it-IT/the-old-country/"
+            >
+              ITALIANO (IT)
             </a>
           </li>
 
@@ -67,7 +80,7 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/de-DE/the-old-country/"
             >
-              DEUTSCH
+              DEUTSCH (DE)
             </a>
           </li>
 
@@ -97,7 +110,7 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/ru-RU/the-old-country/"
             >
-              РУССКИЙ
+              РУССКИЙ (RU)
             </a>
           </li>
 
@@ -107,7 +120,7 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/es-ES/the-old-country/"
             >
-              ESPAÑOL (EU)
+              ESPAÑOL (ES)
             </a>
           </li>
 
@@ -127,7 +140,7 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/ko-KR/the-old-country/"
             >
-              한국어
+              한국어 (KR)
             </a>
           </li>
 
@@ -137,7 +150,7 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/ja-JP/the-old-country/"
             >
-              日本語
+              日本語 (JP)
             </a>
           </li>
 
@@ -147,7 +160,7 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/zh-TW/the-old-country/"
             >
-              繁體中文
+              繁體中文 (TW)
             </a>
           </li>
 
@@ -157,7 +170,7 @@ const CaixaIdioma = () => {
               target="_blank"
               href="https://mafia.2k.com/zh-CN/the-old-country/"
             >
-              简体中文
+              简体中文 (CN)
             </a>
           </li>
         </ul>

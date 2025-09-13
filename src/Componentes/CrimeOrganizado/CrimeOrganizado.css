@@ -23,23 +23,43 @@
 }
 
 .caixa-crime-organizado {
-  background: url("/CrimeOrganizado-1-img.avif") center / cover no-repeat;
+  background: image-set(
+      url("/CrimeOrganizado-1-img.avif") type("image/avif"),
+      url("/CrimeOrganizado-1-img.jpg") type("image/jpeg")
+    )
+    center / cover no-repeat;
 }
 
 .caixa-classico-mafia {
-  background: url("/classicomafia-img.avif") center / cover no-repeat;
+  background: image-set(
+      url("/classicomafia-img.avif") type("image/avif"),
+      url("/classicomafia-img.jpg") type("image/jpeg")
+    )
+    center / cover no-repeat;
 }
 
 .caixa-sobevivencia {
-  background: url("/sobrevivencia-img.avif") center / cover no-repeat;
+  background: image-set(
+      url("/sobrevivencia-img.avif") type("image/avif"),
+      url("/sobrevivencia-img.jpg") type("image/jpeg")
+    )
+    center / cover no-repeat;
 }
 
 .caixa-viaja {
-  background: url("/Viaja-img.avif") center / cover no-repeat;
+  background: image-set(
+      url("/Viaja-img.avif") type("image/avif"),
+      url("/Viaja-img.jpg") type("image/jpeg")
+    )
+    center / cover no-repeat;
 }
 
 .caixa-redes-sociais-f {
-  background: url("/imagem-redes.avif") center / cover no-repeat;
+  background: image-set(
+      url("/imagem-redes.avif") type("image/avif"),
+      url("/imagem-redes.jpg") type("image/jpeg")
+    )
+    center / cover no-repeat;
 }
 
 .caixa-conteudo-crime-organizado,

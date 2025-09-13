@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
   .caixalancamento {
-    background-image: url("imagem-fundo-gameplay-celular.avif");
+    background-image: url("/imagem-fundo-gameplay-celular.avif");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
